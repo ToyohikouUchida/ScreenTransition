@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isShowSecondView = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                NavigationLink {
+                    SecondView()
+                } label: {
+                    Text("SecondViewへナビ遷移")
+                }
+                
+                Button("SecondViewへモーダル遷移"){
+                    isShowSecondView = true
+                }
+                .padding()
+                .sheet(isPresented: $isShowSecondView) {
+                    SecondView()
+                        .presentationDetents([.medium])
+                }
+            }
+            .padding()
+            .navigationTitle("画面1")
         }
-        .padding()
     }
 }
 

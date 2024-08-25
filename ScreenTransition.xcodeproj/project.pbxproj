@@ -11,6 +11,7 @@
 		5BB834E62C7AD71A00F1433E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB834E52C7AD71A00F1433E /* ContentView.swift */; };
 		5BB834E82C7AD72100F1433E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB834E72C7AD72100F1433E /* Assets.xcassets */; };
 		5BB834EB2C7AD72100F1433E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB834EA2C7AD72100F1433E /* Preview Assets.xcassets */; };
+		5BB834F22C7B1FDD00F1433E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB834F12C7B1FDD00F1433E /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5BB834E52C7AD71A00F1433E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BB834E72C7AD72100F1433E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB834EA2C7AD72100F1433E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BB834F12C7B1FDD00F1433E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5BB834E32C7AD71A00F1433E /* ScreenTransitionApp.swift */,
 				5BB834E52C7AD71A00F1433E /* ContentView.swift */,
+				5BB834F12C7B1FDD00F1433E /* SecondView.swift */,
 				5BB834E72C7AD72100F1433E /* Assets.xcassets */,
 				5BB834E92C7AD72100F1433E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB834F22C7B1FDD00F1433E /* SecondView.swift in Sources */,
 				5BB834E62C7AD71A00F1433E /* ContentView.swift in Sources */,
 				5BB834E42C7AD71A00F1433E /* ScreenTransitionApp.swift in Sources */,
 			);
